@@ -1,0 +1,42 @@
+.blogContainer h1{
+    margin: 40px 50px;
+    font-family: 'Merriweather', serif;
+}
+
+.blogItems{
+    font-family: 'Source Serif Pro', serif;   
+    margin: 50px;
+}
+.blogItem p{
+    font-family: 'Source Serif Pro', serif;  
+}
+
+.hamburger{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px
+}
+
+.cross{
+    margin-left: 120px;
+}
+
+.sidebarGo{
+    position: absolute;
+    transform: translate(-170px, 0px);
+}
+
+@media screen and (max-width: 1500px) {
+    .devPic{
+        display: none;
+    }
+    @media screen and (min-width: 350px) {
+        .hello,.name,.about,.moreabout{
+            font-size: 1.5em;
+        }
+        .hello{
+            margin-top: 23px;
+        }
+    }    
+}

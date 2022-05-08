@@ -1,0 +1,78 @@
+.contact-form h1{
+    font-family: 'Merriweather', serif;
+}
+
+.contact-form{
+    padding: 0 34px;
+    padding-top: 144px;
+}
+
+.Name{
+    display: flex;
+    flex-direction: column;
+    width: 417px;
+    padding-top: 10px;
+}
+
+.Name input{
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.CilentEmail{
+    display: flex;
+    flex-direction: column;
+    width: 417px;
+    padding: 10px 0;
+}
+
+.CilentEmail input{
+    margin: 4px 0;
+    border-radius: 5px;
+}
+
+#emailHelp{
+    margin: 0 5px;
+    font-size: 10px;
+    color: midnightblue;
+}
+
+.PhoneNumber{
+    display: flex;
+    flex-direction: column;
+    width: 417px;
+    padding: 5px 0;
+}
+
+.PhoneNumber input{
+    margin: 4px 0;
+    border-radius: 5px;
+}
+
+.Enquiry{
+    display: flex;
+    flex-direction: column;
+    width: 417px;
+    padding: 5px 0;
+}
+
+.Enquiry input{
+    margin: 4px 0;
+    border-radius: 5px;
+}
+
+.form-check{
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+
+.btn{
+    /* margin: 0px 3px; */
+    /* background-color: antiquewhite; */
+    color: #0dd213;
+    padding: 9px 14px;
+    border-radius: 22px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
